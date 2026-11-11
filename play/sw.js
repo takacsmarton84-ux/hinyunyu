@@ -1,6 +1,6 @@
 // Generálva a build során (vite.config.ts).
-const CACHE = 'space-race-d7b190ec3374'
-const PRECACHE = ["./","./assets/index-BTswf2pL.css","./assets/index-CJXfSXiW.js","./icons/apple-touch-icon.png","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./img/coin-bronze.webp","./img/coin-gold.webp","./img/coin-silver.webp","./img/logo.webp","./img/meteor-1.webp","./img/meteor-2.webp","./img/meteor-3.webp","./img/ufo.webp","./manifest.webmanifest","./sounds/explosion.wav","./sounds/music.wav","./sounds/pling.wav"]
+const CACHE = 'space-race-cc4b752c00ab'
+const PRECACHE = ["./","./assets/index-CmI8bzHc.css","./assets/index-QbU3AzHq.js","./icons/apple-touch-icon.png","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./img/coin-bronze.webp","./img/coin-gold.webp","./img/coin-silver.webp","./img/logo.webp","./img/meteor-1.webp","./img/meteor-2.webp","./img/meteor-3.webp","./img/ufo.webp","./manifest.webmanifest","./sounds/explosion.wav","./sounds/music.wav","./sounds/pling.wav"]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(PRECACHE)).then(() => self.skipWaiting()))
